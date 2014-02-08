@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Open App Android</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_browser_button">Browse Installed Apps</string>
+    <string name="pref_cat_filtering">Filtering</string>
+    <string name="pref_android_filter_key">pref_android_filter_key</string>
+    <string name="pref_android_filter_title">Ignore Android Classes</string>
+    <string name="pref_android_filter_desc">When browsing packages ignore standard Android classes (recommended)</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="superclass">Superclass: </string>
+    <string name="pref_synthetic_filter_key">pref_synthetic_filter_key</string>
+    <string name="pref_synthetic_filter_title">Ignore Synthetic Methods</string>
+    <string name="pref_synthetic_filter_desc">Ignore compiler generated methods in classes (recommended)</string>
+    <string name="modifiers">Modifiers: </string>
+    <string name="synthetic">Is Synthetic?</string>
+    <string name="type">Type: </string>
+    <string name="value">Constant Value: </string>
+    <string name="system_browser_button">Browse System Apps</string>
+    <string name="explore_package">Explore Java Classes</string>
+    <string name="explore_resources">Explore Resources</string>
+    <string name="package_name">Package Name: </string>
+    <string name="class_count">Total Number of Classes: </string>
+    <string name="empty_resourcelistfrag_text">No resources found in R\n:(</string>
+    <string name="launch_app_text">Launch App</string>
+    <string name="help">Help!</string>
+    <string name="other_apps_prompt">My Other Apps</string>
+    <string name="new_primitive">New Primitive</string>
+    <string name="new_object">New Object</string>
+    <string name="view_objs">View Variables</string>
+    <string name="var_name_hint">Variable Name</string>
+    <string name="make_var_button">Make</string>
+    <string name="var_is_array">Array</string>
+    <string name="str_true">True</string>
+    <string name="str_false">False</string>
+
+    <string-array name="greetings_array">
+        <item>Created by Nick Stephen!</item>
+        <item>Tell your friends!</item>
+        <item>I fight for the user!</item>
+        <item>Stable!</item>
+        <item>Open!</item>
+        <item>Support the dev!</item>
+        <item>braaaiiinnss....</item>
+        <item>Hello!</item>
+        <item>Down with iPhone!</item>
+        <item>Trustworthy!</item>
+        <item>Praise the Sun!</item>
+        <item>Delicious!</item>
+        <item>circa 2013</item>
+        <item>:P</item>
+        <item>Never put a sock in a toaster!</item>
+        <item>In Beta!</item>
+        <item>Give me feedback!</item>
+        <item>Aussie Aussie Aussie!</item>
+        <item>Don\'t feed the troll!</item>
+        <item>sqrt(-1) love you!</item>
+        <item>Snake Free!</item>
+        <item>Raptor Free!</item>
+    </string-array>
+
+    <string-array name="primitives_array">
+        <item>byte</item>
+        <item>short</item>
+        <item>int</item>
+        <item>long</item>
+        <item>float</item>
+        <item>double</item>
+        <item>boolean</item>
+        <item>char</item>
+    </string-array>
+
+    <string-array name="objects_array">
+        <item>String</item>
+    </string-array>
+
+    <string-array name="number_picker_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+</resources>

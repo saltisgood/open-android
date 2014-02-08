@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/modifiers"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:gravity="center_vertical"
+                android:layout_column="0"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/modifier_text"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_column="1"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/type_text_prompt"
+                android:text="@string/type"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_column="0"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:layout_height="50dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/type_text"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_column="1"
+                android:gravity="center_vertical"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/synthetic"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_column="0"
+                android:gravity="center_vertical"/>
+
+            <CheckBox
+                android:id="@+id/synthetic_checkbox"
+                android:layout_gravity="center_vertical"
+                android:layout_column="1"
+                android:clickable="false"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/value_row"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/value"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_column="0"
+                android:gravity="center_vertical"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/value_text"
+                    android:layout_marginLeft="5dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_column="1"
+                    />
+
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@android:id/list" />
+
+</LinearLayout>

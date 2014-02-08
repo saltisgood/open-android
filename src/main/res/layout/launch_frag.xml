@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_text"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/browse_apps_button"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_browser_button"
+        android:layout_below="@id/title_text"
+        android:minWidth="230dp"
+        android:minHeight="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/browse_system_apps_button"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_below="@id/browse_apps_button"
+        android:text="@string/system_browser_button"
+        android:minWidth="230dp"
+        android:minHeight="75dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/help_button"
+        android:layout_margin="5dp"
+        android:text="@string/help"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/browse_system_apps_button"
+        android:minWidth="230dp"
+        android:minHeight="75dp"/>
+
+    <com.nickstephen.lib.gui.widget.AnimTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/anim_footer_text"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        custom:textArray="@array/greetings_array"
+        custom:anim_dur_ms="1500"
+        custom:anim_waitDur_ms="7500"
+        custom:anim_shuffle="true"/>
+
+
+</RelativeLayout>

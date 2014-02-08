@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:id="@+id/package_browser_header"
+        android:layout_height="?android:listPreferredItemHeight"
+        android:minHeight="?android:listPreferredItemHeight">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/class_type_img"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+
+        <org.holoeverywhere.widget.TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/app_name_text"
+            android:text="OpenAndroid"
+            android:scrollHorizontally="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/holo_light_blue" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/package_browser_frag_container">
+
+    </FrameLayout>
+
+</LinearLayout>

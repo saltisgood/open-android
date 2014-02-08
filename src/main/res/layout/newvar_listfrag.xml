@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/headers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/var_name_edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:hint="@string/var_name_hint"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_weight="1"/>
+
+        <CheckBox
+            android:id="@+id/var_is_array_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/var_is_array"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/make_var_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:listPreferredItemHeight"
+        android:layout_alignParentBottom="true"
+        android:text="@string/make_var_button"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@android:id/list"
+        android:layout_below="@id/headers"
+        android:layout_above="@id/make_var_button"
+        android:choiceMode="singleChoice"/>
+
+</RelativeLayout>
