@@ -1,13 +1,14 @@
 package com.nickstephen.openandroid.reflection;
 
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.nickstephen.lib.gui.Fragment;
 import com.nickstephen.lib.gui.FragmentUtil;
 import com.nickstephen.openandroid.R;
+
+import org.holoeverywhere.LayoutInflater;
 
 /**
  * Created by Nick on 14/01/14.
