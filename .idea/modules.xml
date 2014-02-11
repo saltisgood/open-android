@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HoloEverywhere/HoloEverywhere.iml" filepath="$PROJECT_DIR$/HoloEverywhere/HoloEverywhere.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenAndroid/OpenAndroid.iml" filepath="$PROJECT_DIR$/OpenAndroid/OpenAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenAndroidProj.iml" filepath="$PROJECT_DIR$/OpenAndroidProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TheStephenAndroidLibrary/TheStephenAndroidLibrary.iml" filepath="$PROJECT_DIR$/TheStephenAndroidLibrary/TheStephenAndroidLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HoloEverywhere/addons/addons.iml" filepath="$PROJECT_DIR$/HoloEverywhere/addons/addons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HoloEverywhere/library/library.iml" filepath="$PROJECT_DIR$/HoloEverywhere/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HoloEverywhere/addons/preferences/preferences.iml" filepath="$PROJECT_DIR$/HoloEverywhere/addons/preferences/preferences.iml" />
+    </modules>
+  </component>
+</project>
+
